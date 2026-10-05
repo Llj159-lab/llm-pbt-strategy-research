@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.env
+*.log
+.DS_Store
+.venv/
+.venv-wsl/
+.venv-wsl-mixed/
+venv/
+env/
+experiments/eval_outputs/

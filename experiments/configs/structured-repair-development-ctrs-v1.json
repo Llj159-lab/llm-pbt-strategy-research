@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "study_role": "ground-truth-informed-development-only",
+  "task_id": "CTRS-001",
+  "edits": [
+    {
+      "op": "clone_test",
+      "source_test": "test_alias_handling_bug",
+      "new_name": "test_alias_handling_without_detailed_validation",
+      "assignment_replacements": [
+        {
+          "target": "converter",
+          "expression": "Converter(detailed_validation=False)"
+        }
+      ],
+      "insert_before": [
+        {
+          "anchor": "result = converter.structure({'public_field': private_field}, WithAlias)",
+          "statements": [
+            "hook = make_dict_structure_fn(WithAlias, converter, _cattrs_use_alias=True)",
+            "converter.register_structure_hook(WithAlias, hook)"
+          ]
+        }
+      ]
+    }
+  ]
+}
