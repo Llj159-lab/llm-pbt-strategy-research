@@ -14,6 +14,7 @@
 | `data-protocol-acceptance.md` | 数据协议与评测基础设施验收结果 |
 | `evaluation-visibility-checklist.md` | 模型阶段与评测阶段的可见性隔离 |
 | `smoke-test-protocol.md` | 评测链路烟雾测试协议 |
+| `reproduction-guide.md` | 第三方复核基础设施和留出任务基线的运行入口 |
 | `data-schema.md` | 逐缺陷评测结果字段和判定规则 |
 | `frozen-protocols.md` | 留出任务、人工诊断和三方对照的冻结协议 |
 | `public-experiment-manifest.yaml` | 公开实验的结构化元数据与结果摘要 |
