@@ -21,5 +21,5 @@ For questions about a specific file, inspect the path:
   - eval/, scripts/, paper/analysis/*.py -> MIT
   - vendor/**                            -> upstream license
 
-See DATASHEET.md for dataset provenance and CANARY.md for training-
-corpus exclusion guidance.
+See `README.md` and `research-log/benchmark-data-audit.md` for dataset
+provenance. The training-corpus exclusion guidance is in `CANARY.md`.
