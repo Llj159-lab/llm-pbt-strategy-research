@@ -14,3 +14,6 @@ build/
 venv/
 env/
 experiments/eval_outputs/
+eval/llm_config.json
+*.secret
+*.secret.*
